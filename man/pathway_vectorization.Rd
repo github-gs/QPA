@@ -4,10 +4,10 @@
 \alias{pathway_vectorization}
 \title{Vectorization of pathways}
 \usage{
-pathway_vectorization(nmerge_tab,condition,group1,group2,pathway_info)
+pathway_vectorization(expression_profile,condition,group1,group2,pathway_info)
 }
 \arguments{
-\item{nmerge_tab}{Gene expression profile contains gene expression. Rownames are entrez IDs. Colnames are sample names.}
+\item{expression_profile}{Gene expression profile contains gene expression. Rownames are entrez IDs. Colnames are sample names.}
 
 \item{condition}{A vector contains group information of samples. For example, condition<-c(type1,type1,type2,type2) of four samples.}
 
@@ -28,7 +28,7 @@ data(example)
 group1='Treatment'
 group2='Model'
 group3='Control'
-Treatment_profile=pathway_vectorize(nmerge_tab,condition,group1,group2,pathway_info)
-Model_profile=pathway_vectorize(nmerge_tab,condition,group2,group3,pathway_info)
+Treatment_profile=pathway_vectorize(expression_profile,condition,group1,group2,pathway_info)
+Model_profile=pathway_vectorize(expression_profile,condition,group2,group3,pathway_info)
 
 }
