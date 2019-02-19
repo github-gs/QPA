@@ -16,7 +16,7 @@
 #'
 #' @examples
 #' data(example)
-#' significant_pathway=pathway_comparision(profile1,profile2,pathway_info)
+#' significant_pathway=pathway_comparision(Treatment_profile,Model_profile,pathway_info)
 #'
 #' @export
 #'
