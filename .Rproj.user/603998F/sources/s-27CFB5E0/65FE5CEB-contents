@@ -1,0 +1,27 @@
+treat=rnorm(307*5,mean=200,sd=110)
+model=rnorm(309*5,mean=450,sd=235)
+
+x=as.data.frame(matrix(treat,307,5))
+y=as.data.frame(matrix(model,309,5))
+
+rownames(x)=rownames(Treatment_profile)
+colnames(x)=colnames(Treatment_profile)
+rownames(y)=rownames(Model_profile)
+colnames(y)=colnames(Model_profile)
+
+Treatment_profile=x
+Model_profile=y
+
+
+range1=1:307
+number1=sample(range1,1)
+
+
+equalzero<-function(x){
+  x[sample(range1,sample(range1,1))]=0
+  return(x)
+}
+Treatment_profile=apply(Treatment_profile,2,equalzero)
+Model_profile=apply(Model_profile,2,equalzero)
+
+
