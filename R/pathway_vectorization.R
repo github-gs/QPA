@@ -19,11 +19,11 @@
 #'
 #' @examples
 #' data(example)
-#' group1='model'
-#' group2='sham'
-#' group3='QSG'
-#' model_profile=pathway_vectorize(nmerge_tab,condition,group1,group2,pathway_info)
-#' QSG_profile=pathway_vectorize(nmerge_tab,condition,group3,group1,pathway_info)
+#' group1='Treatment'
+#' group2='Model'
+#' group3='Control'
+#' Treatment_profile=pathway_vectorize(nmerge_tab,condition,group1,group2,pathway_info)
+#' Model_profile=pathway_vectorize(nmerge_tab,condition,group2,group3,pathway_info)
 #'
 #' @export
 #'
