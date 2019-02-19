@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1548304421112.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3453061031",
+    "id" : "2E4E17E9",
+    "lastKnownWriteTime" : 1548400904,
+    "last_content_update" : 1548400904619,
+    "path" : "~/文件/BCM_Re_Sequencing/Diff_analysis.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "229,50",
+        "scrollLine" : "213"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

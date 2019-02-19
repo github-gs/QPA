@@ -1,0 +1,13 @@
+Package: QPA
+Type: Package
+Title: Quantitative Pathway Analysis
+Version: 1.0
+Author: Gao Sheng
+Maintainer: Gao Sheng <1308092527@qq.com>
+Description: A new quantitative way to analysis biological pathways which contains functions for vectorizing and comparing pathways.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.2)
+Imports: clusterProfiler,KEGGREST,omicade4,limma,ade4,parallel
+RoxygenNote: 6.1.1
