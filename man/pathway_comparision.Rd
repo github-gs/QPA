@@ -20,7 +20,7 @@ Return a dataframe containing pathway ID and p-value.
 This function makes projection and comparison between pathways. The output contains pathway ID and p-value. P-value<0.05 was considered significantly different.
 }
 \examples{
-data(example)
-significant_pathway=pathway_comparision(Treatment_profile,Model_profile,pathway_info)
+#data(Case)
+#significant_pathway=pathway_comparision(QSG_profile,Model_profile,pathway_info)
 
 }
