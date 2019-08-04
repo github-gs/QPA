@@ -1,7 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-import(omicade4)
-import(parallel)
-import(KEGGREST)
-import(limma)
-import(ade4)
-importFrom("stats", "dist","na.omit")
