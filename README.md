@@ -8,6 +8,9 @@ install.packages("devtools") # if you have not installed "devtools" package
 
 devtools::install_github("github-gs/QPA")
 
+or you can down load the source code .zip file() to install.
+
+
 # Usage
 
 # Example
