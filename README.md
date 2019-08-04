@@ -10,6 +10,11 @@ devtools::install_github("github-gs/QPA")
 
 # Usage
 
+# Example
+
+data(Case)  ######## pathway-gene matrix
+
+
 pathway_info = merge(pathway_list)
 
 group1 = 'Treatment'
