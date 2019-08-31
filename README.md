@@ -1,8 +1,10 @@
 
 # QPA
 
+
 # Depends
 R Vsersion >= 3.4.2
+
 R Package: omicade4, clusterProfiler, KEGGREST, limma, ade4, parallel
 
 # Installation
