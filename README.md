@@ -9,7 +9,7 @@ R Package: omicade4, clusterProfiler, KEGGREST, limma, ade4, parallel
 
 # Installation
 
-install.packages("devtools") # if you have not installed "devtools" package
+install.packages("devtools")    # if you have not installed "devtools" package
 library(devtools)
 devtools::install_github("github-gs/QPA")
 
@@ -19,7 +19,9 @@ or you can down load the source code .zip file to install.
 
 # R Depends Package Installation
 if (!requireNamespace("BiocManager", quietly = TRUE))
+
     install.packages("BiocManager")
+    
 BiocManager::install(c('omicade4', 'clusterProfiler', 'KEGGREST', 'limma', 'ade4'))
 
 install.package('parallel')
