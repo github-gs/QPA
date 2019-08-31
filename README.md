@@ -11,6 +11,9 @@ devtools::install_github("github-gs/QPA")
 or you can down load the source code .zip file to install.
 (https://github.com/github-gs/QPA/blob/source-code-zip/QPA_1.0.tar.gz) 
 
+# Depends
+R Vsersion >= 3.4.2
+R Package: omicade4, clusterProfiler, KEGGREST, limma, ade4, parallel
 
 # Usage
 
