@@ -23,8 +23,7 @@ install.packages("devtools")    # if you have not installed "devtools" package
 library(devtools)
 devtools::install_github("github-gs/QPA")
 
-or you can down load the source code .zip file to install.
-(https://github.com/github-gs/QPA/blob/source-code-zip/QPA_1.0.tar.gz) 
+or you can down load the source code .zip file (https://github.com/github-gs/QPA/blob/source-code-zip/QPA_1.0.tar.gz), then use the IDE software (Rstudio) --> Tools --> Install Packages --> choose source code zip file to install. 
 
 
 # Usage
