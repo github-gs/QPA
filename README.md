@@ -22,9 +22,9 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
     install.packages("BiocManager")
     
-BiocManager::install(c('omicade4', 'clusterProfiler', 'KEGGREST', 'limma', 'ade4'))
+    BiocManager::install(c('omicade4', 'clusterProfiler', 'KEGGREST', 'limma', 'ade4'))
 
-install.package('parallel')
+    install.package('parallel')
 
 # Usage
 
