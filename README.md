@@ -1,6 +1,6 @@
 
 # QPA
-
+[![DOI](https://zenodo.org/badge/171402784.svg)](https://zenodo.org/badge/latestdoi/171402784)
 
 # Depends
 R Vsersion >= 3.4.2
