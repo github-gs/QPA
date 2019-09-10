@@ -53,4 +53,4 @@ or you can down load the source code .zip file (https://github.com/github-gs/QPA
      significant_pathway = pathway_comparision(Treatment_profile,Model_profile,pathway_info)
      
      
-     data(Case)  ### original data in our research
+     data(Case)  ### load the original data in our research
