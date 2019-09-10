@@ -34,10 +34,10 @@ or you can down load the source code .zip file (https://github.com/github-gs/QPA
 
 # Example
 
-     data(Case)  ######## pathway-gene matrix
+     data(example)  ######## pathway-gene matrix
 
 
-     pathway_info = merge(pathway_list)
+     pathway_info = merge_pathway(pathway_list)
 
      group1 = 'Treatment'
 
