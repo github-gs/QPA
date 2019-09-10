@@ -27,6 +27,10 @@ or you can down load the source code .zip file (https://github.com/github-gs/QPA
 
 
 # Usage
+     help(QPA)
+     help(merge_pathway)
+     help(pathway_vectorization)
+     help(pathway_comparison)
 
 # Example
 
@@ -42,7 +46,7 @@ or you can down load the source code .zip file (https://github.com/github-gs/QPA
      group3 = 'Control'
 
 
-     Treatment_profile = pathway_vectorize(nmerge_tab,condition,group1,group2,pathway_info)
+     Treatment_profile = pathway_vectorize(expression_tab,condition,group1,group2,pathway_info)
 
      Model_profile = pathway_vectorize(nmerge_tab,condition,group2,group3,pathway_info)
 
